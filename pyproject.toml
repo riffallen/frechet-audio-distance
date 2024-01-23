@@ -18,15 +18,15 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  'numpy==1.23.4',
+  'numpy>=1.23.4',
   'torch',
-  'scipy==1.10.1',
+  'scipy>=1.10.1',
   'tqdm',
   'soundfile',
   'resampy',
   'torchlibrosa',
   'laion_clap',
-  'transformers<=4.30.2',
+  'transformers',
   'torchaudio',
   'encodec',
 ]
